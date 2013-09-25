@@ -1,0 +1,6 @@
+<Alloy>
+	<Row code="{code}">
+		<ImageView id="image" image=""/>
+		<Label text="{item}"/>
+	</Row>
+</Alloy>

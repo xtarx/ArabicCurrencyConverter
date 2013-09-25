@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="convertButton">يلا</string>
+	<string name="noInternet">No internet connection !</string>
+	<string name="sameCurrency">Cant Convert from & to the same currency</string>
+	<string name="emptyAmount">At least enter an amount to convert</string>
+
+</resources>

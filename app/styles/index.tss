@@ -1,0 +1,84 @@
+".container": {
+	backgroundColor: "white"
+},
+"Window": {
+	backgroundColor: "#ecf0f1"
+},
+
+"#pop1": {
+	top:"5%",
+},
+"#equals": {
+font: {
+		fontSize: '20dp',
+		//fontWeight: 'bold',
+		//color:
+	}
+	,top:"7%"
+
+},
+
+"#result": {
+font: {
+		fontSize: '20dp',
+		fontWeight: 'bold',
+		//color:
+	}
+		,
+		//top:"7%"
+
+},
+
+"#pop2": {
+	left:"30%",
+	top:"10%"
+},
+
+"TextField": {
+	width: "50%",
+	height:"10%",
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+
+"ImageView": {
+	width:"14%",
+	height:"7%"
+},
+
+
+
+
+
+
+"Label": {
+	height: Ti.UI.SIZE,
+	color: "#336699",
+	// font: {
+		// fontSize: '20dp',
+		// //fontWeight: 'bold'
+	// }
+} ,
+"Picker": {
+	bottom: 0,
+	width: "50%",
+	height:0,
+	//transform:"transformPicker"
+},
+
+"#picker1": {
+	left: 0
+},
+"#picker2": {
+	right: 0
+}
+,
+"#convertButton": {
+	title: L('convertButton')
+}
+
+,
+"#image": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	left:"0%"
+    }

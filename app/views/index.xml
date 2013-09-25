@@ -1,0 +1,104 @@
+<Alloy>
+
+	<Window  onClick="hideKeyBoard"  layout="vertical" exitOnClose="true" >
+		<ScrollView>
+
+			<View layout="vertical" id="pop1">
+				<TextField id="amount" keyboardType="Titanium.UI.KEYBOARD_NUMBER_PAD" />
+				
+				<Label  class="output" text="دولار امريكى" id="from" />
+				<Label class="output" text="=" id="equals" />
+				<Label class="output" text="102323" id="result" />
+				<View layout="horizontal" id="pop2">
+					<ImageView image="usa_flag_icon.jpg"/>
+					<Label class="output" textAlign="center" text="دولار امريكى" id="to" />
+				</View>
+			</View>
+			<Picker id="picker1" selectionIndicator="true" useSpinner="true" >
+				<PickerColumn>
+
+					<Row  code="EGP" name="جنيه مصري" >
+						<Label>جنيه مصري</Label>
+					</Row>
+					<Row  code="SAR" name="ريال سعودي">
+						<Label>ريال سعودي</Label>
+					</Row>
+					<Row  code="KWD" name="دينار كويتي">
+						<Label>دينار كويتي</Label>
+					</Row>
+					<Row  code="AED" name="درهم إماراتي">
+						<Label>درهم إماراتي</Label>
+					</Row>
+					<Row  code="BAD" name="دينار بحريني">
+						<Label>دينار بحريني</Label>
+					</Row>
+					<Row  code="OMR" name="ريال عماني">
+						<Label>ريال عماني</Label>
+					</Row>
+					<Row  code="QTR" name="ريال قطري">
+						<Label>ريال قطري</Label>
+					</Row>
+					<Row  code="JOD" name="دينار إردني">
+						<Label>دينار إردني</Label>
+					</Row>
+					<Row  code="USD" name="دولار امريكى">
+						<Label>دولار امريكى</Label>
+					</Row>
+					<Row  code="EUR" name="يورو">
+						<Label>يورو</Label>
+					</Row>
+					<Row  code="GBP" name="إسترليني">
+						<Label>إسترليني</Label>
+					</Row>
+					<Row  code="CAD" name="دولار كندي">
+						<Label>دولار كندي</Label>
+					</Row>
+					<Row  code="DKK" name="كرونا دنماركي">
+						<Label>كرونا دنماركي</Label>
+					</Row>
+					<Row  code="NOK" name="كرونا نرويجي">
+						<Label>كرونا نرويجي</Label>
+					</Row>
+					<Row  code="SEK" name="كرونا سويدى">
+						<Label>كرونا سويدى</Label>
+					</Row>
+					<Row  code="CHF" name="فرنك سويسرى">
+						<Label>فرنك سويسرى</Label>
+					</Row>
+					<Row  code="JPY" name="ين ياباني">
+						<Label>ين ياباني</Label>
+					</Row>
+					<Row  code="AUD" name="دولار إسترالي">
+						<Label>دولار إسترالي</Label>
+					</Row>
+
+				</PickerColumn>
+			</Picker>
+			<Picker id="picker2" selectionIndicator="true" useSpinner="true">
+				<PickerColumn>
+					<Row  code="GBP" name="إسترليني">
+						<Label>إسترليني</Label>
+					</Row>
+					<Row  code="CAD" name="دولار كندي">
+						<Label>دولار كندي</Label>
+					</Row>
+					<Row  code="DKK" name="كرونا دنماركي">
+						<Label>كرونا دنماركي</Label>
+					</Row>
+					<Row  code="NOK" name="كرونا نرويجي">
+						<Label>كرونا نرويجي</Label>
+					</Row>
+					<Row  code="SEK" name="كرونا سويدى">
+						<Label>كرونا سويدى</Label>
+					</Row>
+					<Row  code="CHF" name="فرنك سويسرى">
+						<Label>فرنك سويسرى</Label>
+					</Row>
+
+				</PickerColumn>
+			</Picker>
+
+		</ScrollView>
+
+	</Window>
+</Alloy>
