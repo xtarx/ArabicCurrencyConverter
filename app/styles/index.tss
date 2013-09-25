@@ -14,8 +14,8 @@ font: {
 		//fontWeight: 'bold',
 		//color:
 	}
-	,top:"7%"
-
+	,top:"7%",
+	visible:false
 },
 
 "#result": {
@@ -65,10 +65,10 @@ font: {
 	//transform:"transformPicker"
 },
 
-"#picker1": {
+"#picker2": {
 	left: 0
 },
-"#picker2": {
+"#picker1": {
 	right: 0
 }
 ,

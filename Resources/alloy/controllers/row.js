@@ -16,11 +16,11 @@ function Controller() {
         image: ""
     });
     $.__views.row.add($.__views.image);
-    $.__views.__alloyId55 = Ti.UI.createLabel({
+    $.__views.__alloyId78 = Ti.UI.createLabel({
         text: "undefined" != typeof $model.__transform["item"] ? $model.__transform["item"] : $model.get("item"),
-        id: "__alloyId55"
+        id: "__alloyId78"
     });
-    $.__views.row.add($.__views.__alloyId55);
+    $.__views.row.add($.__views.__alloyId78);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

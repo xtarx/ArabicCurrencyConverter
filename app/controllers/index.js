@@ -20,12 +20,12 @@ function convert(e) {
 	 */
 	var from = $.picker1.getSelectedRow(0).code;
 	var to = $.picker2.getSelectedRow(0).code;
-
 	if (from == to) {
 		//alert same currency
 		alert(L('sameCurrency'));
 		return;
 	}
+	$.equals.show();
 
 	//$.resultFrom.text = "From " + from;
 	//$.resultTo.text = "To " + to;
